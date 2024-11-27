@@ -23,7 +23,7 @@ services:
       - GF_SMTP_HOST={$GF_SMTP_HOST}
       - GF_SMTP_USER={$GF_SMTP_USER}
       - GF_SMTP_PASSWORD={$GF_SMTP_PASSWORD}
-      - GF_SMTP_FROM_ADDRESS={$jichenzhou701@gmail.com}
+      - GF_SMTP_FROM_ADDRESS={$GF_SMTP_FROM_ADDRESS}
       - GF_SMTP_FROM_NAME={$GF_SMTP_FROM_NAME}
     volumes:
       - ./grafana:/etc/grafana/provisioning/datasources
